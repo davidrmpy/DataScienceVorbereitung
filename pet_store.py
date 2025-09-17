@@ -1,9 +1,8 @@
-pet_store = {"dog":5, "horse":2, "Cat":6}
+pet_store = {"dog":5, "horse":2, "cat":6}
 
 print(pet_store)
 
-
-print("We have", pet_store["dog"], "Dogs in the store")
+print(f"We have {pet_store['dog']} dogs in the store")
 
 pet_store.pop("horse")
 
