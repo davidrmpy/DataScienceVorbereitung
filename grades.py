@@ -13,6 +13,9 @@ print("The average grade is", average_grades)
 
 for student, grade in grades.items():
     if grade >= 4:
-        print(f"{student} Passed")
+        print(f"{student}'s grade is {grade}, Passed")
     else:
-        print(f"{student} Failed")
+        print(f"{student}'s grade is {grade}, Failed")
+
+
+print(grades)
